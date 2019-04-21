@@ -1,0 +1,6 @@
+const path = require('path')
+const pathResolve = path.resolve(__dirname,'../.env.dev')
+require('dotenv').config({
+  path: pathResolve
+})
+require('../src/index.js')
